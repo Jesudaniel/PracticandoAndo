@@ -7,7 +7,7 @@ function getSecs() {
     current = current + 1;
     if (current == warning)
     {
-        window.alert('Se va a cerrar.');
+        window.alert('Se va a cerrar, cuidado.');
     }
     if (current == timeout - 10) {
 
